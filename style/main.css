@@ -1,14 +1,13 @@
 body {
     background: linear-gradient(#d3d2d2, #2c2c2c);
-    margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 header {
     width: 100%;
     margin: 0;
     padding: 0;
-    position: fixed;
 }
 
 header nav {
@@ -46,8 +45,8 @@ header nav ul li a:hover {
     opacity: 1;   
 }
 #container {
-    padding: 82px;
-    padding-bottom: 0px;
+    margin-left: 10%;
+    padding: 22px 0;    
 }
 
 
@@ -89,8 +88,8 @@ header nav ul li a:hover {
 }
 
 #footer {
+    padding: 0;
     width: 100%;
-    bottom: 0px;
     position: absolute;
     background: #000;
     text-align: center;
