@@ -21,7 +21,7 @@
     
     <div id="container">
         
-        <a id="proj1" href="#">
+        <a id="proj" href="#">
             <img id = "img1" src="imgs/triviaGame.png">
             <div>
                 <h3>GRPM Trivia Game</h3>
@@ -30,7 +30,7 @@
             </div>
         </a>
         
-        <a id="proj2" href="#">
+        <a id="proj" href="#">
             <img id = "img2" src="imgs/flowField.png">
             <div>
                 <h3>Flow Field</h3>
@@ -38,7 +38,7 @@
             </div>
         </a>
         
-        <a id="proj3" href="#">
+        <a id="proj" href="#">
             <img id = "img3" src="imgs/emergence.png">
             <div>
                 <h3>Emergence</h3>
@@ -46,7 +46,7 @@
             </div>
         </a>
         
-        <a id="proj4" href="#">
+        <a id="proj" href="#">
             <img id = "img4" src="imgs/bullyGame.png">
             <div>
                 <h3>Breaking Point</h3>
@@ -55,7 +55,7 @@
             </div>
         </a>
         
-        <a id="proj5" href="#">
+        <a id="proj" href="#">
             <img id = "img5" src="imgs/musicVis.png">
             <div>
                 <h3>Junior Project Music Visualizer</h3>
@@ -64,7 +64,7 @@
             </div>
         </a>
         
-        <a id="proj6" href="#">
+        <a id="proj" href="#">
             <img id = "img6" src="imgs/MusicVis2.png">
             <div>
                 <h3>Music Visualizer</h3>

@@ -48,29 +48,36 @@ header nav ul li a:hover {
 #container {
     padding: 82px;
     padding-bottom: 0px;
-    float: right;
 }
 
 
-#container img {
+#proj {
     float: left;
-}
-
-#proj1 div,
-#proj2 div,
-#proj3 div,
-#proj4 div,
-#proj5 div,
-#proj6 div {
-    z-index: 5;
     width: 29.45%;
     text-align: center;
     color: #CCC;
     text-decoration: none;
-    position: absolute;
     background: #000;
+    position: relative;
 }
 
+/*make image fill space*/
+#proj img{
+    width: 100%;
+}
+/*set div pos to absolute, so it hovers over parent, set to not display*/
+#proj div {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+/*display on parent rollover*/
+#proj:hover div {
+    display: block;
+}
 .clear {
     clear: both;
 }
