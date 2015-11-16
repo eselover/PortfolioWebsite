@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(#d3d2d2, #2c2c2c);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+header nav {
+    background: linear-gradient(rgb(3, 9, 82), #040036);
+    height: 62px;
+    box-shadow: 0 2px 5px rgba(0,0,0, .5);
+}
+header nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+
+header nav ul li a {
+    float: left;
+    line-height: 62px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 19px;
+    font-weight: bold;
+    font-size: 1.25em;
+    font-family: "Agency FB Bold" monospace;
+    color: #CCC;
+    opacity: .4;
+    transition: opacity .25s;
+}
+
+header nav ul li a:hover {
+    opacity: 1;   
+}
+
+#home {
+    opacity: 1;   
+}
+#container {
+    padding: 82px;
+    padding-bottom: 0px;
+    float: right;
+}
+
+
+#container img {
+    float: left;
+}
+
+#proj1 div,
+#proj2 div,
+#proj3 div,
+#proj4 div,
+#proj5 div,
+#proj6 div {
+    z-index: 5;
+    width: 29.45%;
+    text-align: center;
+    color: #CCC;
+    text-decoration: none;
+    position: absolute;
+    background: #000;
+}
+
+.clear {
+    clear: both;
+}
+
+#footerContent {
+    line-height: 50px;
+    color: antiquewhite;
+    display: block;
+}
+
+#footer {
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    background: #000;
+    text-align: center;
+}
+
+#logo {
+    height: 55px;
+    padding: 4px 14px;
+    float: left;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+    width: 33%;
+    padding: 0px;
+}
