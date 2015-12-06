@@ -54,7 +54,7 @@ body {
     padding: 4px 14px;
     float: left;
 }
-#headerContainer header nav ul li #home {
+#headerContainer header nav ul li #about {
     opacity: 1;   
 }
 
@@ -63,59 +63,65 @@ body {
     color: #CCC;
     font-size: 2em;
 }
-#content {
-    padding: 10px;
-}
 
-#content .proj {
-    width: 32%;
-    height: 320px;
-    border: 2px solid black;
-    margin-left: 1%;
-    margin-bottom: 5px;
-    float: left;
+#container #content {
+    position: relative;
+    margin: 80px auto;
+    border-radius: 5px;
+    background: rgba(0,0,0, .5);
+    width: 85%;
     text-align: center;
-    overflow: hidden;
+    height: 500px;
 }
 
-.proj #desc {
-    overflow-y: hidden;
-    max-height: 0px;
-    padding: 0px;
-    width: 100%;
-    top: 0;
-    position: inherit;
-    z-index: 3;
+#content p {
+    text-align: justify;
+    font-family: "Ariel" sans-serif;
     color: #CCC;
-    font-size: .75em;
-    background: #000;
-    text-align: center;
-    
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-timing-function: cubic-bezier(0, 1, .5, 1);
-    -moz-transition-timing-function: cubic-bezier(0, 1, .5, 1);
-    -o-transition-timing-function: cubic-bezier(0, 1, .5, 1);
-    transition-timing-function: cubic-bezier(0, 1, .5, 1);
 }
 
-.proj:hover #desc {
-    max-height: 100px;
+.desc {
+    padding: 13px 30px 30px 30px;
+    font-size: 1.25em;
 }
 
-.clear {
-    clear: both;   
+.pic {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 30px;
+    overflow:hidden;
 }
 
-#content a img {
-    max-height: 112%;
-    max-width: 112%;
+.pic img {
+    max-width: 150px;
+}
+
+#content ul {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+
+#content ul li a {
+    float: left;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 19px;
+    font-weight: bold;
+    font-size: 2.25em;
+    color: #CCC;
+}
+
+#content ul li a:hover {
+    text-decoration: underline;  
 }
 
 footer {

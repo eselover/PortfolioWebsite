@@ -54,7 +54,7 @@ body {
     padding: 4px 14px;
     float: left;
 }
-#headerContainer header nav ul li #home {
+#headerContainer header nav ul li #contact {
     opacity: 1;   
 }
 
@@ -62,60 +62,6 @@ body {
     line-height: 62px;
     color: #CCC;
     font-size: 2em;
-}
-#content {
-    padding: 10px;
-}
-
-#content .proj {
-    width: 32%;
-    height: 320px;
-    border: 2px solid black;
-    margin-left: 1%;
-    margin-bottom: 5px;
-    float: left;
-    text-align: center;
-    overflow: hidden;
-}
-
-.proj #desc {
-    overflow-y: hidden;
-    max-height: 0px;
-    padding: 0px;
-    width: 100%;
-    top: 0;
-    position: inherit;
-    z-index: 3;
-    color: #CCC;
-    font-size: .75em;
-    background: #000;
-    text-align: center;
-    
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-timing-function: cubic-bezier(0, 1, .5, 1);
-    -moz-transition-timing-function: cubic-bezier(0, 1, .5, 1);
-    -o-transition-timing-function: cubic-bezier(0, 1, .5, 1);
-    transition-timing-function: cubic-bezier(0, 1, .5, 1);
-}
-
-.proj:hover #desc {
-    max-height: 100px;
-}
-
-.clear {
-    clear: both;   
-}
-
-#content a img {
-    max-height: 112%;
-    max-width: 112%;
 }
 
 footer {
