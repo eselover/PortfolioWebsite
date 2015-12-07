@@ -65,11 +65,12 @@ body {
 }
 #content {
     padding: 10px;
+    height: 600px;
 }
 
 #content .proj {
     width: 32%;
-    height: 320px;
+    height: 430px;
     border: 2px solid black;
     margin-left: 1%;
     margin-bottom: 5px;

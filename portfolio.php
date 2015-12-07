@@ -52,11 +52,30 @@
             
             <div class="clear"></div>
             
-        </div>
-        
-        <footer>
+            
+            <footer>
             <span id="footerContent">&copy;2015 Eric Selover </span>
-        </footer>
+            </footer>
+        </div>
+         
+         
+        <!-- <div id="openModal1" class="modal">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Test</h2>
+                <p>BLAH BLAH BLAH BLAH BLAH BLAH</p>
+             </div>
+         </div>
+         
+         <div id="openModal2" class="modal">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>This is different</h2>
+                <p>still different</p>
+             </div>
+         </div> -->
+        
+        
     </div>
 
 
