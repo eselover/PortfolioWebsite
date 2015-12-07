@@ -64,6 +64,41 @@ body {
     font-size: 2em;
 }
 
+#container #content {
+    position: relative;
+    margin: 80px auto;
+    border-radius: 5px;
+    background: rgba(0,0,0, .5);
+    width: 500px;
+    text-align: center;
+    height: 220px;
+}
+
+#content p {
+    font-size: 1.25em;
+    color: #CCC;
+}
+
+#email {
+    text-decoration: none;  
+    color: #CCC;
+}
+
+#email:hover {
+    text-decoration: underline;   
+}
+
+.link {
+    text-decoration: none;
+    color:#CCC;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
 footer {
     position: absolute;
     width: 100%;

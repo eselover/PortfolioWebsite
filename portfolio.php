@@ -10,13 +10,13 @@
      <div id="headerContainer">
         <header>
             <nav>
-                <a href="#"><img id="logo" src="imgs/logo.png"></a>
+                <a href="index.php"><img id="logo" src="imgs/logo.png"></a>
                 <span id="name">Eric Selover</span>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" id="port">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="portfolio.php" id="port">Portfolio</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,28 +25,29 @@
      <div id="container">
         <!-- body -->
         <div id="content">
-            <div class="proj">
-                <a href="#"><img src="imgs/triviaGame.png"></a>
-            </div>
-            
+
             <div class="proj">           
-                <a href="#"><img src="imgs/flowField.png"></a>
+                <a href="#openModal1"><img src="imgs/triviaGame.png"></a>
+            </div>
+
+            <div class="proj">           
+                <a href="#openModal2"><img src="imgs/flowField.png"></a>
             </div>
             
             <div class="proj">
-                <a href="#"><img src="imgs/emergence.png"></a>
+                <a href="#openModal3"><img src="imgs/emergence.png"></a>
             </div>
             
             <div class="proj">
-                <a href="#"><img src="imgs/musicVis.png"></a>
+                <a href="#openModal4"><img src="imgs/musicVis.png"></a>
             </div>
             
             <div class="proj">
-                <a href="#"><img src="imgs/MusicVis2.png"></a>
+                <a href="#openModal5"><img src="imgs/MusicVis2.png"></a>
             </div>
             
             <div class="proj">
-                <a href="#"><img src="imgs/bullyGame.png"></a>
+                <a href="#openModal6"><img src="imgs/bullyGame.png"></a>
             </div>
             
             <div class="clear"></div>

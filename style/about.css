@@ -71,7 +71,7 @@ body {
     background: rgba(0,0,0, .5);
     width: 85%;
     text-align: center;
-    height: 500px;
+    height: 95%;
 }
 
 #content p {
@@ -81,7 +81,7 @@ body {
 }
 
 .desc {
-    padding: 13px 30px 30px 30px;
+    padding: 13px 30px 70px 30px;
     font-size: 1.25em;
 }
 

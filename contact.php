@@ -10,13 +10,13 @@
     <div id="headerContainer">
         <header>
             <nav>
-                <a href="#"><img id="logo" src="imgs/logo.png"></a>
+                <a href="index.php"><img id="logo" src="imgs/logo.png"></a>
                 <span id="name">Eric Selover</span>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#" id="contact">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php" id="contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,6 +24,17 @@
     
      <div id="container">
         <!-- body -->
+         
+        <div id="content">
+            <p>I can be reached at the following:</p>
+            <p>Email:    <a id="email" href="mailto:eric.selover@gmail.com">eric.selover@gmail.com</a></p>
+            <p>Phone:    (734)646-2823</p>
+            
+            <p>Or you can check out these profiles by clicking the link below!</p>
+            
+            <a class="link" href="https://www.linkedin.com/in/eric-selover-064aa7104">Linkedin</a>
+            <a class="link" href="https://github.com/eselover">Github</a>
+        </div>
         
         
         <footer>

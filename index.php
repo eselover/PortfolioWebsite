@@ -10,13 +10,13 @@
     <div id="headerContainer">
         <header>
             <nav>
-                <a href="#"><img id="logo" src="imgs/logo.png"></a>
+                <a href="index.php"><img id="logo" src="imgs/logo.png"></a>
                 <span id="name">Eric Selover</span>
                 <ul>
-                    <li><a href="#" id="home">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.php" id="home">Home</a></li>
+                    <li><a href="portfolio.php">Portfolio</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </header>
