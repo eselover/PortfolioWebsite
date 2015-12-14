@@ -1,4 +1,6 @@
 <!doctype html>
+
+<?php require_once('couch/cms.php');?>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -10,7 +12,7 @@
     <div id="headerContainer">
         <header>
             <nav>
-                <a href="index.php"><img id="logo" src="imgs/logo.png"></a>
+                <a href="index.php"><img id="logo" src="<cms:editable name='logo' label='logoImage' type='image'></cms:editable>"></a>
                 <span id="name">Eric Selover</span>
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -45,3 +47,5 @@
 
 </body>
 </html>
+
+<?php COUCH::invoke(); ?>

@@ -1,4 +1,4 @@
-body {
+body, html {
     background-image: linear-gradient(rgb(74,74,74), #9a9a9a);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -136,4 +136,45 @@ footer {
     font-size: 14px;
     color: #CCC;
     line-height: 32px;    
+}
+
+@media (max-width: 1217px) {
+    #logo {
+        height: 35px;
+        padding: 43px 14px;
+    }
+    
+    #name {
+        line-height: 120px;
+        text-align: center;
+    }
+    #headerContainer header nav {
+        height: 120px;   
+    }
+    #headerContainer header nav ul li a {
+        line-height: 120px;
+        font-size: 2.25em;
+    }
+}
+
+@media (max-width: 900px) {
+    #logo {
+        height: 35px;
+        padding: 4px 10px 0 40%;
+    }
+    
+    #name {
+        line-height: 32px;
+        text-align: center;
+    }
+    #headerContainer header nav {
+        height: 160px;   
+    }
+    #headerContainer header nav ul li a {
+        line-height: 120px;
+        font-size: 2.25em;
+    }
+    #content .proj {
+        width: 98%;   
+    }
 }
